@@ -288,10 +288,13 @@ hr.light {
   width: 50rem;
   margin: 0 auto;
 }
+#logo_dart{
+  width: 3rem;
+  height: auto;
+}
 .appdescription{
   width: 20rem;
   margin: 0 auto;
-
   border-radius: 1rem;
 }
 header.masthead {
