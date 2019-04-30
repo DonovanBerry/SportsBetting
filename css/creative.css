@@ -231,7 +231,8 @@ hr.light {
 
 #sub-form {
   height: 3rem;
-  width: 25rem;
+  width: 75%;
+  margin: 0 auto;
 }
 
 #sub-btn {
@@ -261,7 +262,7 @@ hr.light {
   color: black;
   border-radius: 1rem;
   background-color: white;
-  width: 50rem;
+  width: 98%;
   margin: 0 auto;
 }
 #second{
