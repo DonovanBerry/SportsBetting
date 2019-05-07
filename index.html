@@ -103,11 +103,7 @@
         </div>
         <div class="col-lg-8 align-self-baseline" id="button_div">
           <p class="text-white-75 font-weight-light mb-5">SharpSquare is letting fans get in on the action. Sign up for our live, in-game prediction contests for a chance to win cash.</p>
-          <form action="https://submit-form.com/xoArtsy-5U82xWtCI-dQw" method="POST" class="justify-content-center signup-form" onsubmit="formSubmit()">
-            <input type="email" name="email" class="form-control-lg" id="sub-form" placeholder="Enter your email to join our waitlist">
-            <input type="hidden" name="_redirect" value="sharpsquareapp.com" />
-            <button type="submit" id="sub-btn" class="btn btn-lg btn-primary align-top">Sign up</button>
-          </form>
+          <button class="btn-primary btn-lg" id="main_signup" onclick="toForm();">PLAY NOW</button>
         </div>
       </div>
     </div>
@@ -116,19 +112,20 @@
 
   <section class="page-section bg-primary" id="app">
     <div class="container">
-      <h2 class="text-center text-white mt-0">See SharpSquare In Action</h2>
-      <hr class="divider my-4">
-
-
-
-        <div class="text-center pb-2" id="first">
-          <div class="image_holder">
-            <img class="usecase mb-3 mt-2" src="./img/Giannis.png">
-            <div class="appdescription">
-            <p class="text-muted mb-0">Show off your prediction skills and compete with the crowd for prize money.</p>
-            </div>
-          </div>
-        </div>
+      <h2 class="text-center text-white mt-0 mb-5">See SharpSquare In Action</h2>
+            <div class="container" style="width: 100%;">
+              <div class="row">
+                <div class="col-sm-6">
+                  <img class="usecase mb-3 mt-2" src="./img/combined_screens.png">
+                </div>
+                <div class="col-sm-6">
+                  <div class="vert_center text-white" id="demo_description">
+                    <h2 >Our free to play game is out for SMS, mobile app coming soon!</h2>
+                    <button class="btn-lg btn-light mt-1" id="action_signup" onclick="toForm();">PLAY NOW</button>
+                  </div>
+                </div>
+              </div>
+      </div>
     </div>
   </section>
 
@@ -138,6 +135,13 @@
       <h2 class="text-center mt-0">Why SharpSquare?</h2>
       <hr class="divider my-4">
       <div class="row justify-content-center">
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="mt-5">
+            <i class="fas fa-4x fa-football-ball text-primary mb-4"></i>
+            <h3 class="h4 mb-2">Adrenaline Rush</h3>
+            <p class="text-muted mb-0">Winning thousands dollars while watching your favorite teams compete tends to get the blood moving.</p>
+          </div>
+        </div>
         <div class="col-lg-3 col-md-6 text-center">
           <div class="mt-5">
             <i class="fas fa-4x fa-dollar-sign text-primary mb-4"></i>

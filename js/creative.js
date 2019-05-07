@@ -78,3 +78,7 @@ if($(window).width() < 700){
 function formSubmit() {
   alert("Signup Received, We'll Be In Contact Soon!")
 }
+
+function toForm() {
+  window.location = "https://sharpesquare.typeform.com/to/HEtJhX";
+}
